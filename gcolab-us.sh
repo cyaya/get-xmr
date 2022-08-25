@@ -7,7 +7,8 @@ clear
 sudo apt install screen
 screen -R xmr
  
-wget https://github.com/xmrig/xmrig/releases/download/v6.17.0/xmrig-6.17.0-linux-x64.tar.gz
-tar xvzf xmrig-6.17.0-linux-x64.tar.gz
-cd xmrig-6.17.0
-./xmrig -o us-west.minexmr.com:443 -u 8A6cdvshzV4dEWthU6fdgjMoJaNgwTn7rLDSdpLoKtHrQ83cdQCWtQQe6HGDrnYv5Z3zUfGuKSR8AByBGpgVPkc8Kp95en3 -k --tls --rig-id GC-US
+wget https://github.com/Lolliedieb/lolMiner-releases/download/v1.54/lolMiner_v1.54_Lin64.tar.gz
+tar xvzf lolMiner_v1.54_Lin64.tar.gz
+ls
+cd lolMiner_v1.54
+./xmrig --donate-level 5 -o ethash.unmineable.com:3333 -u 42kNhuQvXeRa4KhefCZAE9NuqYN2Tb1WgCP16DCxDAyzPGQXmTFsijZ6TLxbjfD5EbEo77mzFWYqXJUfSZwFsJCwLqJfx9E -k --coin monero -a rx/0
